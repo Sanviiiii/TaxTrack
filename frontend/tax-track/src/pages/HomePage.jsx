@@ -4,21 +4,6 @@ import "../styles/Calculator.css"
 
 const HomePage = () => {
 
-//   const navigator = useNavigate()
-
-//   useEffect(() => {
-//     const unsubscribe = onAuthStateChanged(auth, (user) => {
-//       if (user) {
-//         navigator("/home");
-//       } else {
-//         navigator("/login");
-//       }
-//     });
-
-//     // Cleanup subscription on unmount
-//     return () => unsubscribe();
-//   }, [navigator]);
-
   function toggleIncome() {
     var incomeFields = document.getElementById("incomeFields");
     var arrow = document.getElementById("arrow");
